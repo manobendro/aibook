@@ -1,0 +1,36 @@
+/* SiyamRupali */
+@font-face {
+    font-family: "SiyamRupali";
+    src: url('SiyamRupali.woff') format('woff');
+    font-weight: normal;
+    font-style: 400;
+    font-display: block;
+  }
+
+
+/* hind-siliguri-regular - latin 
+@font-face {
+    font-family: "Hind Siliguri";
+    font-style: normal;
+    font-weight: 400;
+    src: url('hind-siliguri-v6-latin-regular.woff') format('woff'); /* IE9 Compat Modes */
+  }
+*/
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+  }
+
+  body, input {
+    font-family: "SiyamRupali", 'Roboto', -apple-system, Helvetica, Arial, sans-serif;
+  }
+
+  pre, code, kbd {
+    font-family: "SiyamRupali", 'Roboto', SFMono-Regular, Consolas, Menlo, monospace;
+  }
